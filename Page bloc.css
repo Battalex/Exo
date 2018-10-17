@@ -1,0 +1,34 @@
+body{
+    margin : 0px ;
+}
+
+  header{
+    width: 100%;
+    background: purple;
+    padding: 30px 10px;
+  }
+
+  main{
+    background: red
+  }
+
+main section{
+  width: 50%;
+  box-sizing: border-box;
+  display: block;
+}
+main section img{
+  width: 100%;
+}
+
+main section:nth-child(1){
+  background: blue;
+}
+
+main section:nth-child(2){
+  background: brown
+}
+
+footer{
+  background: yellow;
+}
